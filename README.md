@@ -15,3 +15,14 @@ Input image size: 256 × 256 pixels
 Image format: RGB
 
 The dataset provides separate training and test splits.
+
+A simple custom four-stage CNN using PyTorch.
+
+- Two successive 3 × 3 convolutional layers with padding to preserve spatial dimensions.
+
+- Batch Normalization to stabilize and accelerate training.
+
+- ReLU activation functions to introduce non-linearity.
+
+- A 2 × 2 Max Pooling layer to progressively reduce spatial dimensions.
+
